@@ -1,0 +1,26 @@
+/* ====== Main SCSS project file ====== */
+
+/* ====== Base styles ================= */
+
+@use '@/assets/scss/utils/base';
+
+/* ==================================== */
+
+/* ====== Components ================== */
+
+@use '@/assets/scss/components/navigationBar';
+@use '@/assets/scss/components/buttons/colorButton';
+@use '@/assets/scss/components/illustrationCard';
+@use '@/assets/scss/components/scrollbar';
+
+/* ==================================== */
+
+/* ====== Index view ================== */
+
+@use '@/assets/scss/views/index/indexHeader';
+@use '@/assets/scss/views/index/categoryGrid';
+@use '@/assets/scss/views/index/aboutMe';
+@use '@/assets/scss/views/index/myWork';
+@use '@/assets/scss/views/index/contact';
+
+/* ==================================== */

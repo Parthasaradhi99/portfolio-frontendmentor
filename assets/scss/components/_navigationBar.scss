@@ -1,0 +1,50 @@
+@use '@/assets/scss/utils/mixins/transformationMixins' as *;
+@use '@/assets/scss/utils/variables' as *;
+@use '@/assets/scss/utils/breakpoints' as *;
+
+/* Navigation bar component styles */
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    @include size(48px);
+
+    @media screen and (min-width: $tablet) {
+      @include size(64px);
+    }
+  }
+
+  &--main {
+    padding: 16px $section-x-padding 0 $section-x-padding;
+
+    @media screen and (min-width: $medium) {
+      padding: 34px 40px 0 40px;
+    }
+
+    @media screen and (min-width: $large) {
+      padding: 34px 165px 0 165px;
+    }
+
+    @media screen and (min-width: $extra-large) {
+      padding: 34px $extra-padding 0 $extra-padding;
+    }
+  }
+
+  &--bottom-nav {
+    padding: 40px $section-x-padding 32px $section-x-padding;
+
+    @media screen and (min-width: $medium) {
+      padding: 56px 40px;
+    }
+
+    @media screen and (min-width: $large) {
+      padding: 56px 165px 64px 165px;
+    }
+
+    @media screen and (min-width: $extra-large) {
+      padding: 56px $extra-padding 64px $extra-padding;
+    }
+  }
+}

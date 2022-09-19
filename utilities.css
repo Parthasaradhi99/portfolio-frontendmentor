@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.container{
+    max-width: 80vw;
+    margin : 0 auto;
+}
+.btn-dark{
+    background-color: black;
+    /* height: 2rem;
+    line-height: 2rem; */
+    /* padding-left: 1rem;
+    padding-right : 1rem; */
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 1.3rem;
+    font-size:1.1rem;
+}
